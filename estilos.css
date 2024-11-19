@@ -1,0 +1,100 @@
+body{
+    background-color: #aed6f1;
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+    color: #333;
+}
+header{
+    color: chocolate;
+    background-color: beige;
+    text-align: center;
+    padding: 20px;
+}
+nav{
+	margin: 50px;
+    align-items: center;
+    max-width: 1200px;
+    padding: 0 1em;
+    justify-content: space-between;
+}
+nav ul li{
+    color: black;
+    text-decoration: none;
+	display: inline;
+	margin-right: 50px;
+}
+.parrafo1{
+    color: blue;
+    margin: 5px 0;
+    padding: 10px;
+    border-radius: 5px;
+}
+nav ul li:hover{
+	color: chocolate;
+}
+nav ul{
+	list-style-type: none;
+	padding: 0;
+    display: flex;
+    gap: 1em;
+}
+nav a:hover{
+    color: brown;
+}
+main{
+	margin: 20px;
+}
+footer{
+	background-color: beige;
+	color: black;
+	text-align: center;
+	padding: 1em;
+}
+section{
+    margin: 20px;
+    padding: 20px;
+    align-content: flex-start;
+    border-radius: 20px;
+    background-color:beige;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+h2{
+    color: chocolate;
+}
+ul li{
+    color: blue;
+    margin: 5px 0;
+    padding: 10px;
+    border-radius: 5px;
+}
+/*flexbox*/
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100vh;
+}
+input,button{
+    padding: 10px;
+    margin: 5px;
+    border-radius: 4px;
+    border: 1px solid sandybrown;
+}
+button{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    background-color: darkblue;
+    border: 1px solid beige;
+    cursor: pointer;
+}
+button :hover{
+    color: purple;
+}
+a{
+    color: rebeccapurple;
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+}
